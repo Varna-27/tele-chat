@@ -12,8 +12,8 @@ if (!$ok) die();
 //error_reporting(0);
 
 //-------------------------------CONFIG-------------------------------
-define('API_KEY','TOKEN HERE');
-$admin = 'ID HERE';
+define('API_KEY','1391430610:AAGTrfQ542Ft7qwbTPOCnREiCXyA7S3qQDQ');
+$admin = '1015332921';
 //--------------------------------------------------------------------
 function bot($method,$datas=[]){
 $url = "https://api.telegram.org/bot".API_KEY."/".$method;
